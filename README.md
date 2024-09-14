@@ -4,6 +4,8 @@
 
 The **Odin Project Landing Page** is a responsive, SEO-friendly web page developed as part of The Odin Project's Foundations Course. The goal is to recreate a landing page using HTML and CSS while following best practices for design and performance.
 
+You can view the live version of the landing page [here](https://farrukh-ali-khan.github.io/odin-project-landing-page/).
+
 ### Key Features
 
 - **Responsive Design**: Ensures the page looks great on all screen sizes (desktop, tablet, mobile).
