@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the latest in gaming news, reviews, and tips at [Your Game Website]. Enhance your gaming experience today!"
+    />
+    <title>Level Up Your Gaming Experience | Project: Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://img.icons8.com/ios/50/controller.png"
+    />
+  </head>
+  <body>
+    <header role="banner">
+      <div class="container">
+        <div class="logo">FK</div>
+        <nav role="navigation">
+          <a href="#info">Info</a>
+          <a href="#quote">Testimonial</a>
+          <a href="#cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-info">
+          <h1>Level Up Your Gaming Experience!</h1>
+          <p>
+            Discover a world where gaming isn't just a pastime—it's a passion.
+            At [Your Game Website], we bring you the latest in gaming news,
+            reviews, and tips to help you conquer your favorite titles. Whether
+            you're a casual player or a hardcore gamer, our site is designed to
+            enhance every aspect of your gaming journey. Jump in and let the fun
+            begin!
+          </p>
+          <a href="#signup" class="btn-signup">Sign Up</a>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="./images/boy-8824850_1280.jpg"
+            alt="Gamer boy enjoying a video game"
+            loading="lazy"
+            srcset="
+              ./images/boy-8824850_1280.jpg 1280w,
+              ./images/boy-8824850_1280.jpg  800w
+            "
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="info" id="info">
+      <h2>Featured Game Categories</h2>
+      <div class="container">
+        <article class="info-item">
+          <img
+            src="./images/ai-generated-8502909_1280.jpg"
+            alt="Action-packed adventure game with thrilling gameplay"
+            loading="lazy"
+            srcset="
+              ./images/ai-generated-8502909_1280.jpg 1280w,
+              ./images/ai-generated-8502909_1280.jpg  800w
+            "
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+          <h3>Action-Packed Adventures</h3>
+          <p>
+            Explore the thrill of fast-paced action games that push you to the
+            edge of your seat. From battling fierce enemies to solving intricate
+            puzzles, every moment is an adrenaline rush.
+          </p>
+        </article>
+        <article class="info-item">
+          <img
+            src="./images/onur-binay-9oQYwZXZ-8c-unsplash.jpg"
+            alt="Immersive RPG world with engaging role-playing elements"
+            loading="lazy"
+            srcset="
+              ./images/onur-binay-9oQYwZXZ-8c-unsplash.jpg 1280w,
+              ./images/onur-binay-9oQYwZXZ-8c-unsplash.jpg  800w
+            "
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+          <h3>Immersive RPG Worlds</h3>
+          <p>
+            Step into immersive story-driven worlds where your choices matter.
+            Customize your hero, forge alliances, and embark on epic quests that
+            span endless virtual universes.
+          </p>
+        </article>
+        <article class="info-item">
+          <img
+            src="./images/ai-generated-8956685_1280.png"
+            alt="Competitive esports arenas for thrilling gaming competitions"
+            loading="lazy"
+            srcset="
+              ./images/ai-generated-8956685_1280.png 1280w,
+              ./images/ai-generated-8956685_1280.png  800w
+            "
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+          <h3>Competitive Esports Arenas</h3>
+          <p>
+            Join the growing community of competitive gamers and test your
+            skills in the hottest esports titles. Whether it's first-person
+            shooters or strategy games, every match is a battle for glory.
+          </p>
+        </article>
+        <article class="info-item">
+          <img
+            src="./images/ai-generated-8064706_1280.jpg"
+            alt="Casual and indie games offering unique and charming experiences"
+            loading="lazy"
+            srcset="
+              ./images/ai-generated-8064706_1280.jpg 1280w,
+              ./images/ai-generated-8064706_1280.jpg  800w
+            "
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+          <h3>Casual Fun & Indie Gems</h3>
+          <p>
+            Take a break from the intensity with casual games and indie
+            masterpieces that offer unique, charming, and heartwarming
+            experiences.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote" id="quote">
+      <div class="container">
+        <blockquote>
+          <p>
+            As a gamer who’s tried everything, I can honestly say this site has
+            become my go-to for all things gaming. From reviews to hidden gems,
+            they cover it all! Totally recommended.
+          </p>
+          <footer>- Alex, Avid Gamer</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="container">
+        <div class="cta-info">
+          <h4>Get in Touch!</h4>
+          <p>
+            Whether you have a question about a game, feedback for us, or
+            partnership opportunities, we’d love to hear from you. Reach out
+            through the form below, or send us an email. Our team is dedicated
+            to getting back to you as soon as possible.
+          </p>
+        </div>
+        <a href="#signup" class="btn-signup">Sign Up</a>
+      </div>
+    </section>
+
+    <footer role="contentinfo">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Project: Landing Page | Built by
+          Farrukh Ali Khan for The Odin Project
+        </p>
+      </div>
+    </footer>
+    <script defer>
+      // JavaScript to set the current year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script defer type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Level Up Your Gaming Experience | Project: Landing Page",
+        "url": "https://farrukh-ali-khan.github.io/odin-project-landing-page",
+        "description": "Discover the latest in gaming news, reviews, and tips. Enhance your gaming experience with in-depth content and insights.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://farrukh-ali-khan.github.io/odin-project-landing-page?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </body>
+</html>
